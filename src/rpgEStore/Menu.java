@@ -2,6 +2,7 @@ package rpgEStore;
 
 import java.io.IOException;
 import java.util.*;
+import rpgEStore.model.*;
 import rpgEStore.util.*;
 
 public class Menu {
@@ -12,6 +13,11 @@ public class Menu {
 		int opcao, iDProduto, categoriaProduto, estoqueProduto;
 		float precoProduto;
 		boolean statusProduto;
+		
+		//teste da subclasse Miniatura
+		Miniatura m1 = new Miniatura(1, "Dados Esmeralda", 3, 13, 24.99f, "Conjunto de dados esverdeados e brilhantes com os "
+				+ "números tingidos de amarelo em tom ouro.", false);
+		m1.visualizar();
 
 		while (true) {
 
