@@ -107,7 +107,7 @@ public abstract class Produto {
 		System.out.println(Cores.TEXT_RESET + Cores.TEXT_BLACK_BOLD + "_________________________________________________");
 		System.out.println(Cores.ANSI_WHITE_BACKGROUND +
 				           "                                                 ");
-		System.out.println(" DADOS DO PRODUTO                                ");
+		System.out.println(" Dados do Produto                                ");
 		System.out.println("_________________________________________________"+Cores.TEXT_RESET);
 		System.out.println("                                                         ");
 		System.out.println(" ID do Produto: "+this.iDProduto);
